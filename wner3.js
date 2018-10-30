@@ -361,14 +361,14 @@ message.member.voiceChannel.join();
 
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '3??'){
         message.channel.send('#credits')
     }
 });
 
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '3@'){
         message.channel.send('#rep <@504016941179076610>')
     }
 });
